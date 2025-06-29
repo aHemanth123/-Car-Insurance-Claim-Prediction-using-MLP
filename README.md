@@ -2,7 +2,7 @@
 
 This deep learning project uses a Multi-Layer Perceptron (MLP) to **predict whether a customer will file a car insurance claim** based on their demographic, financial, and driving history data.
 
----
+ 
 
 ## 📊 Problem Statement
 
@@ -10,7 +10,7 @@ This deep learning project uses a Multi-Layer Perceptron (MLP) to **predict whet
 - **Type**: Binary classification
 - **Target**: `CLAIM_FLAG` (0 = No claim, 1 = Claim)
 
----
+ 
 
 ## 🧠 Model: Multi-Layer Perceptron (MLP)
 
@@ -20,8 +20,7 @@ We used TensorFlow and Keras to implement an MLP with:
 - ReLU activations
 - Sigmoid output for binary classification
 
----
-
+ 
 ## 🔄 Project Pipeline
 
 | Step | Description |
@@ -38,8 +37,7 @@ We used TensorFlow and Keras to implement an MLP with:
 | 10. 🔍 Evaluation       | Used accuracy, confusion matrix, ROC AUC |
 | 11. 📈 Visualization    | Plotted training vs validation loss curves |
 | 12. 💾 Model Saving     | Saved best model and scaler for future predictions |
-
----
+ 
 
 ## 📦 Key Features Implemented
 
@@ -71,7 +69,7 @@ We used TensorFlow and Keras to implement an MLP with:
   - Optimizer (`adam`, `rmsprop`)
   - Dropout rate (0.2 to 0.5)
 
----
+ 
 
 ## 🧪 Evaluation Metrics
 
@@ -81,7 +79,7 @@ We used TensorFlow and Keras to implement an MLP with:
 - **ROC-AUC Score**
 - **Loss Curves**
 
----
+ 
 
 ## 🧾 Sample Prediction Workflow
 
