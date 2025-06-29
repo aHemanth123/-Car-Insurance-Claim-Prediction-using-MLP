@@ -96,7 +96,7 @@ model = load_model("car_insurance_mlp_best_model.h5")
 scaler = joblib.load("scaler.pkl")
 
 # Step 3: Preprocess new input
-# Create new sample with correct structure → scale → predict
+Create new sample with correct structure → scale → predict
 ```
 
 ### 📁 Files Included
